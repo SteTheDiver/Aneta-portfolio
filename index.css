@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+span {
+    color: #54be90;
+    text-decoration: underline white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 50px;
+    width: fit-content;
+}
+
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+    height: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    background-color:#5e5b5b;
+    color: white;
+    flex-grow: inherit;
+    text-decoration: none;
+    align-items: center;
+}
+
+a:hover {
+    background-color:#54be90;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/fern-5298586_1920.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.central_text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 h2 .central_text {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+}
+
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.text_mission {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%;
+
+
+}
+
+
+
+
+
+
