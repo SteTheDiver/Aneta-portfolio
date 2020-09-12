@@ -9,11 +9,6 @@ body {
 }
 
 
-span {
-    color: #54be90;
-    text-decoration: underline white;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -25,11 +20,13 @@ header {
 .left {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .logo {
     height: 50px;
     width: fit-content;
+    flex-grow: 1;
 }
 
 
@@ -71,10 +68,15 @@ main {
     align-items: center;
 }
 
-h1 h2 .central_text {
+ .central_text h1, h2 {
         color: white;
         text-align: center;
         font-size: 50px;
+}
+
+.central_text span {
+    color: #54be90;
+    text-decoration: underline white;
 }
 
 
@@ -92,10 +94,75 @@ h1 h2 .central_text {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 5%;
-
+    padding: 0 10%;
 
 }
+
+.text_mission h3 {
+    font-size: 25px;
+    color:black;
+}
+
+.text_mission span {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+.description_flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    padding-bottom: 3px;
+    background-color: black;
+}
+.description_flow_first {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    border: 2px solid green;
+    padding-bottom: 3px;
+}
+
+.description_flow_second_level {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 3px;
+    align-items: center;
+}
+
+.description_flow_third_level {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.description_flow_third_level p {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.description_flow_second_level h2 {
+    color: #54be90;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.circle {
+    position: relative;
+    bottom: 55px;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    clip-path: circle();
+    background: white;
+}
+
+
+
 
 
 
