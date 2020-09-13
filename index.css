@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    font-family: "Alegreya", sans-serif;
 }
 
 
@@ -116,13 +117,15 @@ main {
     height: fit-content;
     padding-bottom: 3px;
     background-color: black;
+
 }
 .description_flow_first {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    border: 2px solid green;
     padding-bottom: 3px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .description_flow_second_level {
@@ -136,6 +139,7 @@ main {
 .description_flow_third_level {
     display: flex;
     flex-direction: column;
+    
     flex-grow: 1;
 }
 
@@ -159,6 +163,58 @@ main {
     margin: 20px;
     clip-path: circle();
     background: white;
+}
+
+.my_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.upper_text_myskils {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.upper_text_myskils h2 {
+    color:#54be90;
+}
+
+.horizonal_bar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.programming_language {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: darkgrey;
+    padding-left: 3px;
+}
+
+.bar_knowledge {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    background-color:#54be90;
+}
+
+.percentage_knowledge {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: lightslategray;
+    align-items: center;
+    justify-items: center;
+    padding-right: 3px;
 }
 
 
